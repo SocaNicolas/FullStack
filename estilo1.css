@@ -1,5 +1,5 @@
 body{
-    background-color: aqua;
+    background-color: rgba(0, 255, 255, 0.26);
 }
 p{
     color: darkmagenta;
@@ -10,5 +10,16 @@ p{
 }
 iframe{
     border-radius: 20%;
-    margin-left: 30%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+footer{
+    background-color: black;
+}
+.saludos{
+    color: beige;
 }
