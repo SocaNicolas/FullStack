@@ -1,0 +1,24 @@
+div p {
+    background-color: yellow;
+}
+p {
+    background-color: red;
+    color: blue;
+}
+h2 + p {
+    color: red;
+}
+/* el orden influye en el resultado el ultimo en ser añadido tiene prioridad */
+h2 ~ p{
+    color: green;
+}
+div > p{
+    background-color: aqua;
+}  
+/* !important da prioridad por encima de todo */
+div{
+    width:320px; 
+    padding:10px; 
+    border:5px solid gray; 
+    margin:0;
+}

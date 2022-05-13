@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+div{
+    width:320px; 
+    padding:10px; 
+    border:5px solid gray; 
+    margin: 10px;
+    text-align: center;
+}
+#div1{
+    width: 320px; 
+    padding:10px;
+    border:5px solid gray; 
+    margin:20px;
+}
+#div2{
+    width:320px; 
+    padding:10px; 
+    border:10px solid gray; 
+    margin:5px;
+}
