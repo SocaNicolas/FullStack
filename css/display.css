@@ -1,7 +1,7 @@
 .main-header{
     background-color:#2ddf5c;
     padding: 8px 16px;
-    width: 100%;
+    width: 100%-49px;
 }
 .main-nav{
     margin: 0px;
@@ -21,5 +21,8 @@ li.main-nav{
     display: inline-block;
 }
 h1{
+    display: inline-block;
+}
+div, h1, nav{
     display: inline-block;
 }
