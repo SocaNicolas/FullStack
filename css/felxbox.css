@@ -1,0 +1,142 @@
+#flex-container {
+    display:flex;
+    flex-direction:column;
+    background-color:red;
+}
+.flex-container{ 
+    display:flex;
+    flex-direction:column;
+    background-color:red;
+    /*align-items:center;*/
+}
+.flex-container > div { 
+    background-color:blue; 
+    width:50%;
+    margin: 10px; 
+    text-align:center; 
+    line-height: 75px; 
+    font-size:30px;
+}
+/* .flex-container{  
+    display:flex;
+    flex-wrap: wrap; 
+    background-color:blue;
+}*/
+.container {
+    display: flex;
+    flex-flow:row wrap;
+}
+.flex > div { 
+    background-color: red; 
+    width: 100px; 
+    margin: 10px; 
+    text-align: center; 
+    line-height: 75px; 
+    font-size: 30px;
+}
+.flex { 
+    display: flex;
+    justify-content: center; 
+    background-color: blue;
+}
+.container { 
+    display: flex; 
+    height: 200px; 
+    align-items: stretch;
+    background-color:blue;
+    justify-content: center;
+}
+.container > div { 
+    background-color:red; 
+    width: 100px;
+    margin: 10px; 
+    text-align: center; 
+    line-height: 75px; 
+    font-size:30px;
+}
+.star{
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: blue;
+}
+.star > div{
+    background-color: red;
+    color: blue;
+    width: 100px;
+    margin: 10px; 
+    text-align: center; 
+    line-height: 70px; 
+    font-size: 35px;
+}
+.cont{
+    display: flex;
+    align-items: stretch;
+    background-color: blue;
+}
+.cont > div{
+    background-color:red; 
+    color: white;
+    width: 100px; 
+    margin: 10px; 
+    text-align:center; 
+    line-height: 75px; 
+    font-size:30px;
+}
+.flex-item{
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+.flex-item{
+    background-color:DodgerBlue; 
+    color: white;
+    width: 200px; 
+    margin: 10px; 
+    text-align: center; 
+    line-height: 75px; 
+    font-size: 30px;
+}
+.shrink{
+    display:flex;
+    align-items: stretch; 
+    background-color:#f1f1f1;
+}
+.shrink > div{
+    background-color:DodgerBlue; 
+    color: white;
+    width: 100px; 
+    margin: 10px; 
+    text-align:center; 
+    line-height: 75px; 
+    font-size:30px;
+}
+.basis {
+    display:flex;
+    align-items: stretch; 
+    background-color:red;
+}
+.basis > div {
+    background-color: blue;
+    color: white; 
+    width: 100px; 
+    margin: 10px; 
+    text-align:center; 
+    line-height: 75px; 
+    font-size:30px;
+}
+.self{
+    display: flex; 
+    height:200px;
+    background-color:red;
+}
+.self > div {
+    background-color:blue; 
+    color: white;
+    width: 100px; 
+    margin: 10px; 
+    text-align:center; 
+    line-height: 75px; 
+    font-size:30px;
+}
