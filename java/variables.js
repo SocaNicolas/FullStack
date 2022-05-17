@@ -60,8 +60,6 @@ const str4 = '"';
 const str2 = 'hola';
 // 4
 console.log(str2.length);
-const a = 1;
-const b = 2;
-const c = 3;
-document.write(a+b+c);
+let a=1, b=2, c=3;
 console.log(a+b+c);
+document.write(a+b+c);
