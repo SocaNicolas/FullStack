@@ -7,13 +7,62 @@
     <title>java(frontend)</title>
     <script src="../java/javaprueba.js"></script>
     <script>
-        alert("Ventana de alerta"); //ventana de alerta en el navegador//
+        alert("Ventana de alerta"); 
+        //ventana de alerta en el navegador
     </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
     <h1>Prueba java script</h1>
+    <p id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis obcaecati asperiores voluptatum nemo architecto quo debitis eos facilis consequuntur repellat sunt reprehenderit illo, eius totam velit! Veniam qui expedita a.</p>
+    <button type="submit" onclick="myFunction()">pulsa para cambiar</button>
+    <button type="submit" onclick="myFunction2()">
+        volver inicio
+    </button>
+    <br>
     <script>
-        document.write("texto en el documento"); //escribe ne el propio documento//
+        document.write("texto en el documento"); 
+        //escribe ne el propio document
+    </script>
+
+    <script>
+        function myFunction() {
+        document.getElementById("demo").innerHTML = "los patos controlan el mundo";
+        }
+    </script>
+    <script>
+        function myFunction2() {
+        document.getElementById("demo").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis obcaecati asperiores voluptatum nemo architecto quo debitis eos facilis consequuntur repellat sunt reprehenderit illo, eius totam velit! Veniam qui expedita a.";
+        }
+    </script>
+    <script>
+        $(document).ready(function(){
+        console.log('Librería jQuery cargada');
+        });
+    </script>
+    <script>
+        //hola
+        console.log("hola")
+        console.log('en', 'un', 'lugar', 'de', 'la', 'Mancha');
+        console.info('Info');
+        console.warn('Warning');
+        console.error('Error');
+        document.write("Texto2");
+    </script>
+    <p id="emo"></p>
+    <button type="submit" onclick="saludar()">click</button>
+    <script>
+        document.getElementById("emo").innerHTML = "hola";
+        /*
+        Esto es
+        un comentario
+        multilínea
+        */
+       // correcto
+        const nombre = "Alejandro";
+        function saludar() {
+        document.write(nombre);
+        }
     </script>
 </body>
 </html>
