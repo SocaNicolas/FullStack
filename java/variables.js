@@ -62,4 +62,5 @@ const str2 = 'hola';
 console.log(str2.length);
 let a=1, b=2, c=3;
 console.log(a+b+c);
+c = 13;
 document.write(a+b+c);
