@@ -64,3 +64,78 @@ let a=1, b=2, c=3;
 console.log(a+b+c);
 c = 13;
 document.write(a+b+c);
+//stringOF buscar las letras en las posiciones
+const str = 'hola';
+// 3
+console.log(str.indexOf('a'));
+// 1
+console.log(str.indexOf('ol'));
+// -1
+console.log(str.indexOf('r'));
+const str_3 = 'hola';
+// 'ol'
+console.log(str_3.substring(1, 3));//ultima posicion no incluida
+// 'ola'
+console.log(str_3.substring(1));
+//charAt
+const str_4 = 'hola';
+// h
+console.log(str_4.charAt(0));
+// a
+console.log(str_4.charAt(3));
+//
+console.log(str_4.charAt(4));
+// h
+console.log(str_4[0]);
+// a
+console.log(str_4[3]);
+// undefined
+console.log(str_4[4]);
+//Array []
+const array1 = [];
+const array2 = [20, 3, 8];
+const array3 = ['Carmen', 'Juan'];
+// otra forma de declarar arrays
+const array4 = new Array(20, 3, 8);
+const array5 = new Array(null, undefined, '', 8);
+const array7 = new Array('Carmen', 'Juan');
+const array8 = new Array('Carmen', 'Juan');
+// 2
+console.log(array8[0].length);
+//ejercicio
+const semana = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabdao", "domingo"];
+semana.length = 4;
+console.log(semana[2]);
+console.log(semana.length);
+//array tamaño
+const array9 = new Array('Carmen', 'Juan');
+array9[3] = 'Alejandro';//asignar un nuevo valor a Arrey
+// [ 'Carmen', 'Juan', <1 empty item>, 'Alejandro' ]
+console.log(array9);
+//La longitud de un array puede modificarse
+const array10 = new Array('Carmen', 'Juan');
+array10.length = 1;
+// [ 'Carmen' ]
+console.log(array10);
+//Date
+const date1 = new Date();
+// Sun Apr 22 2018 12:37:06 GMT+0200 (Hora de verano romance)
+console.log(date1);
+// milisegundos en formato Unix
+const milisegundos = new Date().getTime();
+console.log(milisegundos);
+// fecha creada a partir del número de milisegundos en formato Unix
+const date2 = new Date(milisegundos);
+console.log(date2);
+//Conversión de tipos
+// 2
+const A = parseInt('2');
+// 2
+const B = +'2';
+// NaN
+const C = +'d';
+// 2
+const D = Number('2');
+
+
+
