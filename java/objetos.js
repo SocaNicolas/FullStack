@@ -37,5 +37,17 @@ console.log(persona['lugar de residencia']);
 const propiedad = 'nombre';
 // undefined porque busca la variable propiedad dentro del objeto persona
 console.log(persona.propiedad);
-// Alejandro
+// Alejandro /casualidad /poco comun/ no usar
 console.log(persona[propiedad]);
+//Anidacion de elementos 
+const persona2 = {
+    nombre: 'Carmen',
+    apellidos: 'González',
+    datos: {
+    direccion: 'Sevilla'
+    }
+};
+// Sevilla
+console.log(persona2.datos.direccion);
+// undefined
+console.log(persona2.datos.otrodato);
